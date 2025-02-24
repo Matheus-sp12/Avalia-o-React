@@ -1,0 +1,33 @@
+#root {
+    background-color: rgb(180, 233, 182);
+    width: 100%;
+    height: 100vh;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    max-width: 70%;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+input {
+    margin: 10px 0;
+}
+
+button {
+    width: 100%;
+    margin: 10px 0;
+}

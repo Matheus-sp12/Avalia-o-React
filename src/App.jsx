@@ -1,4 +1,4 @@
-
+import "./styles.css";
 import React, { useState } from "react";
 
 
@@ -28,11 +28,11 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <div className="app">
       <h1>Calculadora de IMC</h1>
       <form onSubmit={(e) => e.preventDefault()}>
         <div>
-          <label>Peso (kg):</label>
+          <label>Peso (kg): </label>
           <input
             type="number"
             value={peso}
@@ -41,7 +41,7 @@ function App() {
           />
         </div>
         <div>
-          <label>Altura (m):</label>
+          <label>Altura (m): </label>
           <input
             type="number"
             step="0.01"
